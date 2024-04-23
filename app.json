@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -25,6 +23,29 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/CooperHewitt-Bold.otf",
+            "./assets/fonts/CooperHewitt-BoldItalic.otf",
+            "./assets/fonts/CooperHewitt-Book.otf",
+            "./assets/fonts/CooperHewitt-BookItalic.otf",
+            "./assets/fonts/CooperHewitt-Heavy.otf",
+            "./assets/fonts/CooperHewitt-HeavyItalic.otf",
+            "./assets/fonts/CooperHewitt-Light.otf",
+            "./assets/fonts/CooperHewitt-LightItalic.otf",
+            "./assets/fonts/CooperHewitt-Medium.otf",
+            "./assets/fonts/CooperHewitt-MediumItalic.otf",
+            "./assets/fonts/CooperHewitt-Semibold.otf",
+            "./assets/fonts/CooperHewitt-SemiboldItalic.otf",
+            "./assets/fonts/CooperHewitt-Thin.otf",
+            "./assets/fonts/CooperHewitt-ThinItalic.otf"
+          ]
+        }
+      ]
+    ]
   }
 }
